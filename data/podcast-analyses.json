@@ -1,0 +1,1169 @@
+[
+  {
+    "id": "analysis_1754349142782_8vo9mmfq5",
+    "timestamp": "2025-08-04T23:12:22.782Z",
+    "contentLength": 117291,
+    "contentPreview": "=== story.txt ===\nI remember the moment that sparked this project. It was during a walk across Middlebury’s campus late one fall afternoon—just after office hours. A student had come in, clearly bright but struggling, and told me they’d been using ChatGPT late at night to help with assignments because they were too anxious to speak up in class. That confession stuck with me.\r\n\r\nLater, over coffee with Germán, we started wondering—how many students were turning to generative AI as a quiet lifelin...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "AI Unplugged: The Silent Shift in Higher Education",
+        "description": "An in-depth exploration of how generative AI is reshaping the learning landscape in elite colleges, focusing on student experiences and institutional responses.",
+        "segments": [
+          "The Spark: Anecdotes from Students",
+          "Data Breakdown: Understanding AI Adoption Rates",
+          "Disparities in Usage: Who's Using AI and Why?",
+          "Institutional Policies: Navigating the New Norm",
+          "Future Implications: What Lies Ahead for Education?"
+        ],
+        "key_questions": [
+          "What drove students to adopt AI for academic assistance?",
+          "How does AI usage differ across various demographics and disciplines?",
+          "What policies have institutions implemented in response to AI adoption, and how effective are they?"
+        ],
+        "potential_guests": [
+          "Zara Contractor - Co-author of the study",
+          "Germán Reyes - Co-author of the study",
+          "An academic policy expert",
+          "A current student using AI in their studies"
+        ],
+        "unique_elements": [
+          "On-the-ground student interviews showcasing personal stories",
+          "Incorporation of survey data visualizations to illustrate key findings",
+          "Expert commentary highlighting implications for educational equity and policy"
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "AI in Academia: Hypotheses vs. Real Experiences",
+        "description": "A Socratic dialogue format examining the assumptions surrounding AI use in education against the research findings and student experiences.",
+        "segments": [
+          "Introduction: Setting the Scene",
+          "Hypothesis 1: AI is a tool for cheating vs. Reality: Strategic Learning Aid",
+          "Hypothesis 2: AI usage is uniform across demographics vs. Reality: Adoption Disparities",
+          "Hypothesis 3: Institutional policies will curb misuse vs. Reality: Mixed Outcomes",
+          "Conclusion: Bridging the Gap between Hypothesis and Reality"
+        ],
+        "key_questions": [
+          "What are the common misconceptions about AI in education?",
+          "How do real student experiences challenge or support these hypotheses?",
+          "What evidence exists to inform better institutional policies?"
+        ],
+        "potential_guests": [
+          "Educational psychologist specializing in technology",
+          "Student representatives from diverse fields of study",
+          "Policy maker involved in education reform",
+          "AI ethics researcher"
+        ],
+        "unique_elements": [
+          "Incorporation of live polls to gauge audience beliefs",
+          "Interactive segments allowing listeners to submit questions",
+          "Dramatic readings of student testimonials to illustrate points"
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "Generative AI and the Quest for Learning: A Scientist's Journey",
+        "description": "A biographical exploration of the researchers behind the study, detailing their motivations, findings, and the implications of their work on future education.",
+        "segments": [
+          "The Origin Story: What Inspired the Research",
+          "The Research Journey: Challenges and Discoveries",
+          "Key Findings: Insights into Student Behavior",
+          "Reflections on the Future of Learning",
+          "Call to Action: What Can Be Done?"
+        ],
+        "key_questions": [
+          "What personal experiences shaped the researchers' perspectives on AI in education?",
+          "What were the most surprising findings from the research?",
+          "How do the researchers envision the future of AI in educational contexts?"
+        ],
+        "potential_guests": [
+          "Zara Contractor - Co-author of the study",
+          "Germán Reyes - Co-author of the study",
+          "An educational technology historian",
+          "A student who has used AI extensively"
+        ],
+        "unique_elements": [
+          "Narrative storytelling style interwoven with personal anecdotes",
+          "Soundscapes from campus life to create an immersive experience",
+          "Reflections on broader societal implications of AI adoption in education"
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 16711
+  },
+  {
+    "id": "analysis_1754349144267_x1cb73xc9",
+    "timestamp": "2025-08-04T23:12:24.267Z",
+    "contentLength": 117291,
+    "contentPreview": "=== story.txt ===\nI remember the moment that sparked this project. It was during a walk across Middlebury’s campus late one fall afternoon—just after office hours. A student had come in, clearly bright but struggling, and told me they’d been using ChatGPT late at night to help with assignments because they were too anxious to speak up in class. That confession stuck with me.\r\n\r\nLater, over coffee with Germán, we started wondering—how many students were turning to generative AI as a quiet lifelin...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "AI in Academia: The Hidden Lifeline",
+        "description": "An in-depth exploration of the role of generative AI in higher education, uncovering how students are adapting their learning strategies and the implications of this shift.",
+        "segments": [
+          "The Spark of Innovation: How a Simple Question Led to a Major Study",
+          "Unpacking the Data: Statistics on AI Adoption Among Students",
+          "AI's Dual Role: Augmentation vs. Automation in Learning",
+          "The Impact of Institutional Policies: Are They Effective or Harmful?",
+          "Future Implications: What Does This Mean for Higher Education?"
+        ],
+        "key_questions": [
+          "What motivated the study on AI usage among students?",
+          "How prevalent is the use of AI tools in academic settings?",
+          "What are the potential benefits and drawbacks of AI in education?",
+          "How do institutional policies influence student behavior regarding AI?",
+          "What future trends can we expect in the integration of AI in higher education?"
+        ],
+        "potential_guests": [
+          "Zara Contractor (Co-author and researcher)",
+          "Germán Reyes (Co-author and researcher)",
+          "An educational policy expert"
+        ],
+        "unique_elements": [
+          "Incorporate sound bites from student interviews discussing their AI experiences.",
+          "Use narrative storytelling to weave personal anecdotes with research findings."
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "Generative AI in Education: Hype or Hope?",
+        "description": "A Socratic dialogue format that challenges assumptions about the impact of AI on learning, examining the gap between expectations and reality.",
+        "segments": [
+          "Setting the Scene: What is Generative AI and Its Intended Benefits?",
+          "Student Perspectives: Are They Using AI as a Learning Tool or a Crutch?",
+          "The Reality Check: Analyzing Survey Data on AI Adoption Rates",
+          "Policy Implications: Do Institutional Rules Help or Hinder Learning?",
+          "Conclusions: What Should We Expect Moving Forward?"
+        ],
+        "key_questions": [
+          "What were the initial beliefs about AI's role in education?",
+          "How do students perceive the impact of AI on their learning?",
+          "What does the data reveal about actual AI usage among students?",
+          "Do current institutional policies align with students' needs?",
+          "What adjustments are necessary to optimize AI's role in education?"
+        ],
+        "potential_guests": [
+          "Zara Contractor (Co-author and researcher)",
+          "Germán Reyes (Co-author and researcher)",
+          "A student who frequently uses AI tools"
+        ],
+        "unique_elements": [
+          "Engage in a back-and-forth debate format to explore differing viewpoints.",
+          "Incorporate live polling or listener feedback to gauge audience perceptions."
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "From Curiosity to Insight: The Journey of AI in Education",
+        "description": "A biographical narrative that chronicles the journey of the researchers as they investigate generative AI's influence on student learning.",
+        "segments": [
+          "The Initial Encounter: A Student's Struggle and the Birth of an Idea",
+          "The Research Journey: Designing the Study and Collecting Data",
+          "Finding Patterns: Analyzing the Impact of AI on Student Learning",
+          "Reflections: What the Research Reveals About Education Today",
+          "Looking Ahead: The Future of AI in Higher Education"
+        ],
+        "key_questions": [
+          "What inspired the researchers to explore AI in education?",
+          "How did the research process unfold from conception to execution?",
+          "What were the key findings and their implications for education?",
+          "How do the researchers feel about the future of AI in learning environments?",
+          "What personal narratives shaped their understanding of AI's role?"
+        ],
+        "potential_guests": [
+          "Zara Contractor (Co-author and researcher)",
+          "Germán Reyes (Co-author and researcher)",
+          "A professor in education technology"
+        ],
+        "unique_elements": [
+          "Narrative-driven storytelling that includes personal anecdotes from the researchers.",
+          "Use of dramatic audio techniques to enhance storytelling and engage listeners."
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 18193
+  },
+  {
+    "id": "analysis_1754349498793_t0b2ib9c9",
+    "timestamp": "2025-08-04T23:18:18.793Z",
+    "contentLength": 117291,
+    "contentPreview": "=== story.txt ===\nI remember the moment that sparked this project. It was during a walk across Middlebury’s campus late one fall afternoon—just after office hours. A student had come in, clearly bright but struggling, and told me they’d been using ChatGPT late at night to help with assignments because they were too anxious to speak up in class. That confession stuck with me.\r\n\r\nLater, over coffee with Germán, we started wondering—how many students were turning to generative AI as a quiet lifelin...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "AI in Academia: The Student Experience Uncovered",
+        "description": "An investigative exploration into the transformative impact of generative AI on student learning and academic integrity.",
+        "segments": [
+          "The Spark: Anecdotes from Students",
+          "Survey Insights: Data and Trends",
+          "Policy Implications: What Institutions Are Doing"
+        ],
+        "key_questions": [
+          "What drove students to adopt generative AI for academic purposes?",
+          "What patterns and disparities exist in AI usage among different demographics?",
+          "How are universities responding to the rise of AI in education?"
+        ],
+        "potential_guests": [
+          "Zara Contractor (Co-author of the study)",
+          "Germán Reyes (Co-author of the study)",
+          "A university policy expert",
+          "A student who uses generative AI"
+        ],
+        "unique_elements": [
+          "In-depth analysis of survey data with visual aids for listeners",
+          "Real-life testimonies from students and educators",
+          "Investigative journalism style, uncovering lesser-known stories"
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "Generative AI: Enhancing Learning or Eroding Skills?",
+        "description": "A Socratic dialogue exploring the beliefs surrounding AI's role in education versus the realities observed in student experiences.",
+        "segments": [
+          "The Hypothesis: AI as a Learning Aid",
+          "The Reality: Student Reports and Data",
+          "Bridging the Gap: Effective Policies and Practices"
+        ],
+        "key_questions": [
+          "Do students perceive AI as a beneficial educational tool?",
+          "What evidence is there to support or contradict the belief that AI can enhance learning?",
+          "How can institutions create policies that support beneficial AI use without hindering academic integrity?"
+        ],
+        "potential_guests": [
+          "Educational psychologist",
+          "AI ethics researcher",
+          "A student representative from a peer organization",
+          "A college administrator"
+        ],
+        "unique_elements": [
+          "Interactive Q&A format with audience participation",
+          "Debate-style discussions with differing viewpoints",
+          "Critical analysis of popular beliefs about AI in education"
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "The Journey of Discovery: Unraveling AI's Impact on Education",
+        "description": "A biographical narrative focusing on the researchers' journey and the personal stories that fueled their investigation into AI in higher education.",
+        "segments": [
+          "The Initial Encounter: A Student's Confession",
+          "The Research Journey: Data Collection and Findings",
+          "Reflections: What This Means for the Future of Education"
+        ],
+        "key_questions": [
+          "What personal experiences inspired the research?",
+          "What challenges did the researchers face in gathering and interpreting data?",
+          "How do the findings reshape our understanding of education in a digital age?"
+        ],
+        "potential_guests": [
+          "Zara Contractor (Co-author of the study)",
+          "Germán Reyes (Co-author of the study)",
+          "An educational policy maker",
+          "A student who experienced the transition"
+        ],
+        "unique_elements": [
+          "Narrative storytelling approach, weaving personal anecdotes with research findings",
+          "Emotional reflections from researchers and students",
+          "A focus on the human element behind the data"
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 44468
+  },
+  {
+    "id": "analysis_1754349510042_ku880rsri",
+    "timestamp": "2025-08-04T23:18:30.042Z",
+    "contentLength": 117291,
+    "contentPreview": "=== story.txt ===\nI remember the moment that sparked this project. It was during a walk across Middlebury’s campus late one fall afternoon—just after office hours. A student had come in, clearly bright but struggling, and told me they’d been using ChatGPT late at night to help with assignments because they were too anxious to speak up in class. That confession stuck with me.\r\n\r\nLater, over coffee with Germán, we started wondering—how many students were turning to generative AI as a quiet lifelin...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "The Quiet Lifeline: Generative AI's Role in Higher Education",
+        "description": "An in-depth exploration of how generative AI, like ChatGPT, is changing the academic landscape and its implications for student learning and institutional policies.",
+        "segments": [
+          "Segment 1: The Spark - Origin of the Research",
+          "Segment 2: Unpacking the Data - AI Adoption Statistics",
+          "Segment 3: The Disparities - Who is Using AI and Why?",
+          "Segment 4: Policy Implications - How Institutions are Responding",
+          "Segment 5: Future Outlook - What’s Next for AI in Education?"
+        ],
+        "key_questions": [
+          "What motivated the researchers to investigate AI in education?",
+          "What are the statistics regarding AI adoption among students?",
+          "How do demographic factors influence AI usage?",
+          "What are the implications of institutional policies on AI adoption?",
+          "What future trends can we expect in the integration of AI in higher education?"
+        ],
+        "potential_guests": [
+          "Dr. Zara Contractor - Co-author of the study",
+          "Dr. Germán Reyes - Co-author of the study",
+          "Educational policy expert",
+          "Student who has used AI in their coursework"
+        ],
+        "unique_elements": [
+          "Use of audio clips from student interviews discussing their experiences with AI.",
+          "Incorporation of expert commentary from education technology specialists."
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "AI in Academia: Myth vs. Reality",
+        "description": "A Socratic dialogue exploring the assumptions and realities of generative AI's impact on education, featuring lively discussions around key questions.",
+        "segments": [
+          "Segment 1: The Hypothesis - Is AI a tool for cheating or learning?",
+          "Segment 2: The Reality - What do the data actually show?",
+          "Segment 3: Student Perspectives - How do students perceive AI's role?",
+          "Segment 4: Institutional Responses - Are policies effective?",
+          "Segment 5: Conclusions - Navigating the future of AI in education"
+        ],
+        "key_questions": [
+          "Are students primarily using AI to cheat or to enhance learning?",
+          "What evidence supports or contradicts popular assumptions about AI use in education?",
+          "How do students feel about the institutional policies regarding AI?",
+          "What are the potential long-term effects of AI on educational equity?"
+        ],
+        "potential_guests": [
+          "Educational psychologist specializing in technology in learning",
+          "AI ethics researcher",
+          "Representative from Middlebury College administration",
+          "Students who actively use AI for academic tasks"
+        ],
+        "unique_elements": [
+          "Interactive Q&A segment with audience questions collected beforehand.",
+          "Use of live polls during the episode to gauge listener opinions on key questions."
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "From Inspiration to Insight: The Journey of AI Research in Education",
+        "description": "A biographical narrative following the researchers as they uncover how generative AI is reshaping student learning, featuring personal anecdotes and reflections.",
+        "segments": [
+          "Segment 1: The Inspiration - A chance encounter that sparked curiosity",
+          "Segment 2: The Research Process - Collecting and analyzing data",
+          "Segment 3: Key Findings - What the research revealed",
+          "Segment 4: The Personal Impact - Stories from students and faculty",
+          "Segment 5: Looking Ahead - Hopes and challenges for the future"
+        ],
+        "key_questions": [
+          "What personal experiences led to the exploration of this research topic?",
+          "What were the most surprising findings from the study?",
+          "How do the researchers view the relationship between AI and education?",
+          "What stories stand out from students who have engaged with AI in their studies?"
+        ],
+        "potential_guests": [
+          "Dr. Zara Contractor - Co-author of the study",
+          "Dr. Germán Reyes - Co-author of the study",
+          "Students who contributed to the research",
+          "Educational reform advocate"
+        ],
+        "unique_elements": [
+          "Narrative storytelling style with personal reflections and experiences.",
+          "Incorporation of music and soundscapes to enhance emotional engagement."
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 55720
+  },
+  {
+    "id": "analysis_1754349795789_hsmaltvps",
+    "timestamp": "2025-08-04T23:23:15.789Z",
+    "contentLength": 117291,
+    "contentPreview": "=== story.txt ===\nI remember the moment that sparked this project. It was during a walk across Middlebury’s campus late one fall afternoon—just after office hours. A student had come in, clearly bright but struggling, and told me they’d been using ChatGPT late at night to help with assignments because they were too anxious to speak up in class. That confession stuck with me.\r\n\r\nLater, over coffee with Germán, we started wondering—how many students were turning to generative AI as a quiet lifelin...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "Unpacking AI in Academia: A Silent Revolution",
+        "description": "This format delves deep into the transformative role of generative AI in higher education, examining its adoption, implications, and the stories behind the statistics.",
+        "segments": [
+          "Segment 1: The Genesis of AI Adoption - Exploring the initial spark and the motivations behind students' use of AI.",
+          "Segment 2: Data Revealed - Analyzing survey findings on generative AI usage among students and the disparities across disciplines.",
+          "Segment 3: Institutional Responses - Investigating how different colleges are adapting their policies in response to AI adoption."
+        ],
+        "key_questions": [
+          "What sparked the interest in studying AI's impact on education?",
+          "How does AI usage differ across various demographic and academic groups?",
+          "What unintended consequences arise from current institutional policies on AI?"
+        ],
+        "potential_guests": [
+          "Dr. Zara Contractor - Co-author of the study",
+          "Germán Reyes - Co-author and education policy expert",
+          "A university administrator with experience in AI policy formation"
+        ],
+        "unique_elements": [
+          "In-depth analysis of survey data with visual aids included in podcast notes.",
+          "Narrative storytelling to illustrate student experiences and challenges."
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "AI in Academia: Expectations vs. Experiences",
+        "description": "This Socratic format engages experts and listeners in a discussion that contrasts initial hypotheses about AI in education with real-world student experiences.",
+        "segments": [
+          "Segment 1: Setting the Stage - Presenting hypotheses about AI’s role in enhancing learning.",
+          "Segment 2: The Reality Check - Sharing personal stories from students regarding their AI usage.",
+          "Segment 3: Expert Commentary - Discussing findings with educational psychologists and technologists."
+        ],
+        "key_questions": [
+          "What were the initial expectations for AI's impact on student learning?",
+          "How do students' actual experiences with AI compare to these expectations?",
+          "What are the implications of these findings for future educational practices?"
+        ],
+        "potential_guests": [
+          "Educational psychologist specializing in technology in learning",
+          "Technologist involved in developing AI tools for education",
+          "A student who actively uses AI in their studies"
+        ],
+        "unique_elements": [
+          "Live listener call-ins to share their own experiences with AI.",
+          "Contrasting segments that juxtapose expert opinions against student narratives."
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "Behind the Research: A Scientist's Journey into AI and Education",
+        "description": "This biographical format tells the personal stories of the researchers who studied AI’s impact on education, exploring their motivations and the journey of discovery.",
+        "segments": [
+          "Segment 1: The Personal Spark - How did the authors become interested in AI's role in education?",
+          "Segment 2: The Research Process - Challenges faced during data collection and analysis.",
+          "Segment 3: Lessons Learned - Reflections on the implications of their findings for the future of education."
+        ],
+        "key_questions": [
+          "What personal experiences led the researchers to explore AI in education?",
+          "What were some of the unexpected challenges during the research?",
+          "How do the researchers envision the future of AI in academia based on their findings?"
+        ],
+        "potential_guests": [
+          "Zara Contractor - Co-author, sharing her inspiration and journey.",
+          "Germán Reyes - Co-author, discussing the collaborative research process.",
+          "An educational leader reflecting on the impact of their findings."
+        ],
+        "unique_elements": [
+          "Narrative storytelling that interweaves personal anecdotes with research findings.",
+          "Exploration of the researchers' emotional and intellectual journeys throughout the study."
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 28238
+  },
+  {
+    "id": "analysis_1754349821883_gkw99r2gz",
+    "timestamp": "2025-08-04T23:23:41.883Z",
+    "contentLength": 117291,
+    "contentPreview": "=== story.txt ===\nI remember the moment that sparked this project. It was during a walk across Middlebury’s campus late one fall afternoon—just after office hours. A student had come in, clearly bright but struggling, and told me they’d been using ChatGPT late at night to help with assignments because they were too anxious to speak up in class. That confession stuck with me.\r\n\r\nLater, over coffee with Germán, we started wondering—how many students were turning to generative AI as a quiet lifelin...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "AI in Academia: The Silent Revolution",
+        "description": "An investigative exploration into how generative AI is reshaping learning and teaching in higher education, focusing on its rapid adoption, implications, and the reactions of students and institutions.",
+        "segments": [
+          "The Spark: How a Student's Confession Launched the Inquiry",
+          "Survey Findings: Who's Using AI and How?",
+          "Diverse Perspectives: Benefits and Concerns from Students",
+          "Institutional Responses: Policies in Flux",
+          "Future Implications: The Path Ahead for AI in Education"
+        ],
+        "key_questions": [
+          "What motivated the initial research into AI usage among students?",
+          "What does the data reveal about the demographics and usage patterns of generative AI?",
+          "How do students perceive the impact of AI on their learning and academic integrity?",
+          "How are institutions responding to the rise of generative AI in academic settings?",
+          "What are the potential future ramifications for students and educational policies?"
+        ],
+        "potential_guests": [
+          "Zara Contractor (co-author of the study)",
+          "Germán Reyes (co-author of the study)",
+          "A representative from Middlebury College administration",
+          "A student who has extensively used AI in their studies"
+        ],
+        "unique_elements": [
+          "In-depth analysis of survey data with visual aids shared online.",
+          "Field recordings of students discussing AI use on campus.",
+          "Expert commentary on the implications of findings from leading educational technologists."
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "Generative AI: Learning Aid or Shortcut?",
+        "description": "A Socratic dialogue exploring the dichotomy between the perceived benefits of AI in education and the actual outcomes observed in student learning and skill development.",
+        "segments": [
+          "Introduction: Defining Generative AI in Education",
+          "Hypothesis: AI Enhances Learning Experiences",
+          "Reality Check: Survey Data and Student Experiences",
+          "Exploring Automation vs. Augmentation in Learning",
+          "Conclusion: Balancing Innovation with Integrity"
+        ],
+        "key_questions": [
+          "What hypotheses exist around the use of AI for educational enhancement?",
+          "What does the evidence say about AI's actual impact on student learning?",
+          "How do students use AI for augmentation versus automation?",
+          "What are the ethical considerations surrounding AI use in academic work?",
+          "How can institutions navigate the fine line between embracing technology and maintaining academic integrity?"
+        ],
+        "potential_guests": [
+          "Educational psychologist specializing in technology in learning",
+          "A student who uses AI for both augmentation and automation",
+          "A faculty member involved in creating AI policy at Middlebury College"
+        ],
+        "unique_elements": [
+          "Interactive debate format with audience participation via social media.",
+          "Live polling of listeners on their experiences with AI in education.",
+          "Dramatic readings of student testimonials to highlight personal experiences."
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "From Campus Confession to Research Revolution",
+        "description": "A biographical narrative detailing the journey of two researchers as they uncover the transformative role of generative AI in higher education, highlighting both personal and professional insights.",
+        "segments": [
+          "The Moment of Inspiration: A Walk Across Campus",
+          "The Birth of an Inquiry: Collaborating on a Study",
+          "Gathering Evidence: The Survey Experience",
+          "Student Stories: Voices from the Ground",
+          "Reflections: Lessons Learned and Future Directions"
+        ],
+        "key_questions": [
+          "What personal experiences led to the research project?",
+          "How did the collaboration between the researchers evolve?",
+          "What surprising findings emerged from the student surveys?",
+          "What are the implications of these findings for future educational practices?",
+          "How do the researchers envision the future of AI in academia?"
+        ],
+        "potential_guests": [
+          "Zara Contractor (co-author of the study)",
+          "Germán Reyes (co-author of the study)",
+          "A student participant who shared their AI experiences"
+        ],
+        "unique_elements": [
+          "Narrative storytelling approach with a personal touch.",
+          "Incorporation of audio diaries from the researchers during the study.",
+          "Reflection segments where researchers discuss their evolving views on AI in education."
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 54333
+  },
+  {
+    "id": "analysis_1754350206154_g5pyw2fkz",
+    "timestamp": "2025-08-04T23:30:06.154Z",
+    "contentLength": 103610,
+    "contentPreview": "=== Kurt paper.txt ===\nPhoto Steward: A Deliberative Collective Intelligence Workflow for Validating Historical Archives\r\nVikram Mohanty, Computer Science, Virginia Tech, USA, vikrammohanty@vt.edu\r\nKurt Luther, Computer Science, Virginia Tech, USA, kluther@vt.edu\r\n\r\nDOI: https://doi.org/10.1145/3582269.3615600\r\nCI '23: Collective Intelligence Conference, Delft, Netherlands, November 2023\r\nHistorical photographs of people generate significant cultural and economic value, but correctly identifying...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "Unmasking the Past: The Quest for Historical Photo Accuracy",
+        "description": "An investigative exploration into the challenges of identifying historical photographs and how technology can aid in preserving accurate narratives.",
+        "segments": [
+          "The Importance of Accurate Historical Identification",
+          "Challenges in Historical Photo Identification",
+          "Inside the Photo Steward Workflow"
+        ],
+        "key_questions": [
+          "Why is accurate identification of historical photos crucial for our culture?",
+          "What are the major challenges faced in identifying individuals in historical photographs?",
+          "How does the Photo Steward system improve the validation of historical photo IDs?"
+        ],
+        "potential_guests": [
+          "Vikram Mohanty (Co-author of the study)",
+          "Kurt Luther (Co-author of the study)",
+          "Expert in digital archiving or historical photography"
+        ],
+        "unique_elements": [
+          "In-depth case studies of misidentified photos",
+          "Live demonstrations of the Photo Steward interface",
+          "Listener Q&A on historical photo identification"
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "Fact or Fiction: The Reality of Historical Photo Identification",
+        "description": "A Socratic-style discussion that challenges common assumptions about the accuracy of historical photo identification and the role of technology.",
+        "segments": [
+          "Hypothesis: AI Can Perfectly Identify Historical Figures",
+          "Reality Check: The Limitations of Facial Recognition",
+          "Debating Deliberation: Human Input vs. AI Output"
+        ],
+        "key_questions": [
+          "Is it realistic to rely solely on AI for historical photo identifications?",
+          "What evidence supports the need for human deliberation in the identification process?",
+          "How does community input shape the accuracy of historical narratives?"
+        ],
+        "potential_guests": [
+          "AI ethics expert",
+          "Historical archivist",
+          "Community member from Civil War Photo Sleuth"
+        ],
+        "unique_elements": [
+          "Role-playing as advocates for each hypothesis",
+          "Audience polls on their beliefs about AI in historical research",
+          "Interactive debate format with audience participation"
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "Behind the Lens: The Scientists' Journey in Photo Stewardship",
+        "description": "A biographical narrative that delves into the personal stories of the researchers behind the Photo Steward project and their motivations.",
+        "segments": [
+          "Meet the Innovators: Vikram Mohanty and Kurt Luther",
+          "The Inspiration Behind Photo Steward",
+          "Real-world Impact: Stories from Users and Communities"
+        ],
+        "key_questions": [
+          "What personal experiences led the researchers to focus on historical photo identification?",
+          "How did they come to develop the Photo Steward architecture?",
+          "What are the real-world implications of their work for communities and historians?"
+        ],
+        "potential_guests": [
+          "Vikram Mohanty",
+          "Kurt Luther",
+          "User testimonials from Civil War Photo Sleuth"
+        ],
+        "unique_elements": [
+          "Personal anecdotes and stories from the researchers",
+          "Soundbites from users sharing their experiences and impact",
+          "Visual storytelling elements to accompany the audio"
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 17383
+  },
+  {
+    "id": "analysis_1754350209233_5lu1z034q",
+    "timestamp": "2025-08-04T23:30:09.233Z",
+    "contentLength": 103610,
+    "contentPreview": "=== Kurt paper.txt ===\nPhoto Steward: A Deliberative Collective Intelligence Workflow for Validating Historical Archives\r\nVikram Mohanty, Computer Science, Virginia Tech, USA, vikrammohanty@vt.edu\r\nKurt Luther, Computer Science, Virginia Tech, USA, kluther@vt.edu\r\n\r\nDOI: https://doi.org/10.1145/3582269.3615600\r\nCI '23: Collective Intelligence Conference, Delft, Netherlands, November 2023\r\nHistorical photographs of people generate significant cultural and economic value, but correctly identifying...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "Unveiling the Past: The Photo Steward Investigation",
+        "description": "A thorough exploration of the challenges and methodologies in validating historical photographs using Photo Steward.",
+        "segments": [
+          "The Importance of Historical Accuracy: Understanding Misidentifications",
+          "Inside Photo Steward: The Deliberative Workflow Explained",
+          "Community Engagement: How Crowdsourcing Shapes Historical Research"
+        ],
+        "key_questions": [
+          "Why is accurate identification of historical photographs so crucial?",
+          "What are the main challenges faced in identifying historical figures through photographs?",
+          "How does the Photo Steward workflow facilitate better decision-making among users?"
+        ],
+        "potential_guests": [
+          "Vikram Mohanty (Co-author of the paper)",
+          "Kurt Luther (Co-author of the paper)",
+          "A historian specializing in Civil War photography"
+        ],
+        "unique_elements": [
+          "In-depth analysis of case studies illustrating misidentifications.",
+          "Live demonstrations of the Photo Steward interface.",
+          "User testimonials sharing experiences on CWPS."
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "The Face Behind the History: Hypothesis vs. Reality",
+        "description": "A Socratic dialogue examining the theoretical frameworks of historical photo identification against real-world challenges.",
+        "segments": [
+          "The Hypothesis: Can AI and Community Collaboration Solve Historical Mysteries?",
+          "Reality Check: What Do Users Experience on CWPS?",
+          "Deliberation: How Do Users Make Decisions in Facially Similar Contexts?"
+        ],
+        "key_questions": [
+          "What assumptions do we make about AI's role in historical accuracy?",
+          "How does user experience challenge or support these assumptions?",
+          "What evidence do we have on the effectiveness of community validation?"
+        ],
+        "potential_guests": [
+          "AI ethicist or expert in human-AI interaction",
+          "Community moderators from CWPS",
+          "Psychologists specializing in decision-making processes"
+        ],
+        "unique_elements": [
+          "Interactive polls during the episode to gauge audience opinions.",
+          "A debate format that pits hypotheses against user experiences.",
+          "Audience Q&A segment to involve listeners directly."
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "Journey Through Time: The Scientists Behind Photo Steward",
+        "description": "A biographical account of the researchers' journey in developing Photo Steward and their passion for historical accuracy.",
+        "segments": [
+          "Meet the Innovators: Backgrounds of Vikram Mohanty and Kurt Luther",
+          "Inspiration Behind Photo Steward: A Personal Narrative",
+          "The Road to Implementation: Challenges and Triumphs"
+        ],
+        "key_questions": [
+          "What motivated the researchers to focus on historical photograph validation?",
+          "What personal experiences influenced their approach in developing Photo Steward?",
+          "How do they envision the future of photo identification and community involvement?"
+        ],
+        "potential_guests": [
+          "Vikram Mohanty (Co-author of the paper)",
+          "Kurt Luther (Co-author of the paper)",
+          "A mentor or advisor who influenced their research journey"
+        ],
+        "unique_elements": [
+          "Personal anecdotes from the researchers about their experiences.",
+          "Narrative storytelling interwoven with their academic journeys.",
+          "Visual aids or illustrations of their research process shared online."
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 20462
+  },
+  {
+    "id": "analysis_1754350355623_z8tnjrd37",
+    "timestamp": "2025-08-04T23:32:35.623Z",
+    "contentLength": 106440,
+    "contentPreview": "=== story.txt ===\nRon: Great. I want to start with a detail about you that I’ve always appreciated, which is that you started out as a collector and someone who was deeply interested in the Civil War. Talk a little about how you became interested and got started.\r\n\r\nKurt: Sure thing. I am a bit of a Civil War collector. I grew up in a family of Civil War and history collectors and appreciators. I spent many childhood hours at antique shops and flea markets, and our home was full of interesting C...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "Unmasking the Past: The Quest for Civil War Identities",
+        "description": "A comprehensive exploration into the methodologies and challenges of identifying historical figures through their photographs.",
+        "segments": [
+          "Segment 1: The Power of Imagery - Why Historical Photos Matter",
+          "Segment 2: The Challenges of Identification - Misidentifications and Their Consequences",
+          "Segment 3: Introducing Photo Steward - A New Approach to Validation",
+          "Segment 4: Real-Life Case Studies - Success Stories and Learnings",
+          "Segment 5: The Future of Historical Photo Identification"
+        ],
+        "key_questions": [
+          "What cultural and economic value do historical photographs hold?",
+          "What are the common pitfalls in identifying historical figures?",
+          "How does Photo Steward enhance the photo identification process?",
+          "What are some notable successes in using this system?",
+          "What are the future implications for historical research and technology?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author of the study",
+          "Vikram Mohanty, Co-author of the study",
+          "Expert historians on Civil War photography"
+        ],
+        "unique_elements": [
+          "In-depth interviews with experts and users of the Photo Steward system",
+          "Case study narratives featuring personal stories from users"
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "Fact vs. Fiction: The Reality of Historical Photo Identification",
+        "description": "A Socratic dialogue examining the assumptions and realities of identifying individuals in historical photographs.",
+        "segments": [
+          "Segment 1: The Assumptions Behind Historical Identification",
+          "Segment 2: The Role of Technology - AI and Human Collaboration",
+          "Segment 3: Community Contributions - Crowdsourcing Accuracy",
+          "Segment 4: Misidentification - The Risks and Consequences",
+          "Segment 5: What Have We Learned? Reflecting on Outcomes and Future Directions"
+        ],
+        "key_questions": [
+          "What assumptions do we make about the accuracy of historical photo identification?",
+          "How does technology change our approach to identifying historical figures?",
+          "What role does community validation play in the accuracy of identifications?",
+          "What are the risks associated with misidentification?",
+          "How can we improve the identification process moving forward?"
+        ],
+        "potential_guests": [
+          "Civil War historians",
+          "Experts in AI and crowdsourcing",
+          "Users of the Photo Steward platform"
+        ],
+        "unique_elements": [
+          "Interactive Q&A with listeners to challenge assumptions",
+          "Debate format with experts presenting opposing views"
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "The Journey of a Civil War Sleuth: Kurt Luther's Story",
+        "description": "A biographical podcast that delves into the personal journey and motivations of Kurt Luther in the realm of historical photo identification.",
+        "segments": [
+          "Segment 1: Early Inspirations - A Childhood Among Collectors",
+          "Segment 2: The Spark of Curiosity - Discovering His Ancestors",
+          "Segment 3: The Development of Photo Steward - A Vision Realized",
+          "Segment 4: Challenges and Triumphs - Real Stories from the Field",
+          "Segment 5: Looking Ahead - Kurt's Vision for the Future of Historical Research"
+        ],
+        "key_questions": [
+          "What inspired Kurt Luther's passion for Civil War history?",
+          "How did personal family history influence his work?",
+          "What were the challenges faced in developing Photo Steward?",
+          "What success stories stand out from his journey?",
+          "What is his vision for the future of historical photo identification?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author of the study",
+          "Family members or descendants of identified individuals",
+          "Historians familiar with Luther's work"
+        ],
+        "unique_elements": [
+          "Personal anecdotes about family history and discoveries",
+          "Emotional storytelling elements highlighting personal connections"
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 21437
+  },
+  {
+    "id": "analysis_1754350382871_h4fptupqx",
+    "timestamp": "2025-08-04T23:33:02.871Z",
+    "contentLength": 106440,
+    "contentPreview": "=== story.txt ===\nRon: Great. I want to start with a detail about you that I’ve always appreciated, which is that you started out as a collector and someone who was deeply interested in the Civil War. Talk a little about how you became interested and got started.\r\n\r\nKurt: Sure thing. I am a bit of a Civil War collector. I grew up in a family of Civil War and history collectors and appreciators. I spent many childhood hours at antique shops and flea markets, and our home was full of interesting C...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "Unveiling the Faces of History: The Art of Civil War Photo Identification",
+        "description": "A thorough exploration of the challenges and techniques used in identifying historical photographs, focusing on the innovative Photo Steward system.",
+        "segments": [
+          "The Importance of Historical Photo Identification",
+          "Challenges in Identifying Civil War Figures",
+          "Inside Photo Steward: How It Works",
+          "User Experiences and Community Engagement",
+          "The Future of Historical Research and AI Collaboration"
+        ],
+        "key_questions": [
+          "Why is accurate identification of historical figures critical?",
+          "What are the common pitfalls in identifying Civil War photographs?",
+          "How does Photo Steward improve the identification process?",
+          "What feedback have users provided about their experiences?",
+          "What are the implications for future historical research?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author of the study",
+          "Vikram Mohanty, Co-author of the study",
+          "A historian specializing in Civil War photography",
+          "A member from the Civil War Photo Sleuth community"
+        ],
+        "unique_elements": [
+          "Incorporation of audio clips from user interviews",
+          "Visual aids shared on social media platforms for listeners"
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "The Reality of Photo Identification: Myths and Methods",
+        "description": "A Socratic dialogue examining the assumptions and truths behind historical photo identification, featuring expert commentary.",
+        "segments": [
+          "Hypothesis: AI Can Perfectly Identify Historical Figures",
+          "Reality: The Challenges of Facial Recognition",
+          "Community Contributions: Are They Reliable?",
+          "Deliberation in Historical Research: What Does it Mean?",
+          "Wrap-up: Collective Intelligence vs. Misinformation"
+        ],
+        "key_questions": [
+          "Can AI be trusted to identify historical figures accurately?",
+          "What human factors influence the accuracy of identification?",
+          "How does community deliberation enhance or hinder the process?",
+          "What lessons can we learn from misidentifications?",
+          "In what ways can we improve historical photo identification practices?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author of the study",
+          "A cognitive psychologist specializing in decision-making",
+          "An expert on misinformation in historical contexts",
+          "A representative from a historical society"
+        ],
+        "unique_elements": [
+          "Interactive polls for listeners to respond to during the episode",
+          "Philosophical reflections on the nature of historical truth"
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "Behind the Lens: Kurt Luther's Journey into Civil War Photography",
+        "description": "A biographical exploration of Kurt Luther's personal and professional journey into the world of Civil War photography and historical research.",
+        "segments": [
+          "Early Influences: A Childhood with History",
+          "The Spark of Interest: Discovering Family Roots",
+          "The Development of Photo Steward",
+          "Challenges and Triumphs in Historical Research",
+          "Future Aspirations: Where to Go from Here"
+        ],
+        "key_questions": [
+          "What inspired Kurt to pursue historical photography?",
+          "How has his family history shaped his research?",
+          "What were the biggest hurdles in developing Photo Steward?",
+          "How does Kurt envision the future of historical photo identification?",
+          "What advice does he have for aspiring historians?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author of the study",
+          "A family member who influenced his passion for history",
+          "A fellow researcher in historical photo analysis",
+          "An educator in the field of digital humanities"
+        ],
+        "unique_elements": [
+          "Personal anecdotes and storytelling from Kurt",
+          "Musical interludes that reflect the Civil War era"
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 48684
+  },
+  {
+    "id": "analysis_1754351194368_4ul32f038",
+    "timestamp": "2025-08-04T23:46:34.368Z",
+    "contentLength": 106440,
+    "contentPreview": "=== story.txt ===\nRon: Great. I want to start with a detail about you that I’ve always appreciated, which is that you started out as a collector and someone who was deeply interested in the Civil War. Talk a little about how you became interested and got started.\r\n\r\nKurt: Sure thing. I am a bit of a Civil War collector. I grew up in a family of Civil War and history collectors and appreciators. I spent many childhood hours at antique shops and flea markets, and our home was full of interesting C...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "Unearthing History: The Quest for Civil War Photo Identities",
+        "description": "A thorough exploration of the challenges and breakthroughs in identifying historical photographs from the Civil War era, featuring the innovative Photo Steward workflow.",
+        "segments": [
+          "Understanding the Importance of Historical Photo Identification",
+          "The Challenges of Misidentification and Historical Accuracy",
+          "Exploring the Photo Steward Workflow and Its Impact on Identification"
+        ],
+        "key_questions": [
+          "Why is accurately identifying historical photographs important for cultural heritage?",
+          "What are the common pitfalls in historical photo identification?",
+          "How does the Photo Steward system enhance the accuracy of photo IDs?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author and expert in historical computing",
+          "Vikram Mohanty, Co-author and computer science researcher"
+        ],
+        "unique_elements": [
+          "In-depth case studies from the Civil War Photo Sleuth platform",
+          "Audio clips from users discussing their experiences with the Photo Steward system"
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "Truth in Images: Hypotheses and Findings in Historical Photo Identification",
+        "description": "A Socratic dialogue format that contrasts initial hypotheses about historical photo identification with the realities unveiled through research and user experiences.",
+        "segments": [
+          "Setting the Hypothesis: The Role of AI and Crowdsourcing",
+          "Reality Check: User Experiences with Photo Steward",
+          "Evaluating the Effectiveness of Historical Photo Identification Methods"
+        ],
+        "key_questions": [
+          "What hypotheses do we have about the role of AI in identifying historical photos?",
+          "How do user experiences with Photo Steward align with or contradict these hypotheses?",
+          "What lessons can be drawn from the realities of misidentification?"
+        ],
+        "potential_guests": [
+          "Historians specializing in the Civil War",
+          "Users of the Civil War Photo Sleuth platform sharing their personal stories"
+        ],
+        "unique_elements": [
+          "Live debate segments where experts discuss varying viewpoints",
+          "Interactive audience participation via social media questions during the episode"
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "Faces of the Past: The Personal Journey Behind Civil War Photo Identification",
+        "description": "A biographical narrative that delves into the personal stories of scientists and users involved in the quest to identify faces from the Civil War, highlighting their motivations and challenges.",
+        "segments": [
+          "Kurt Luther's Journey: From Collector to Researcher",
+          "The Role of Community in Historical Research",
+          "Personal Stories of Discovery: Users' Connections to Their Ancestors"
+        ],
+        "key_questions": [
+          "What inspired Kurt Luther to focus on Civil War photography?",
+          "How do community contributions shape the process of photo identification?",
+          "What emotional connections do users have with the photographs they are identifying?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author and researcher",
+          "Ron Coddington, photographer and Civil War historian"
+        ],
+        "unique_elements": [
+          "Narrative storytelling interspersed with user testimonials",
+          "Personal anecdotes and reflections from the guests about their motivations"
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 15318
+  },
+  {
+    "id": "analysis_1754351204037_3ra1udn3o",
+    "timestamp": "2025-08-04T23:46:44.037Z",
+    "contentLength": 106440,
+    "contentPreview": "=== story.txt ===\nRon: Great. I want to start with a detail about you that I’ve always appreciated, which is that you started out as a collector and someone who was deeply interested in the Civil War. Talk a little about how you became interested and got started.\r\n\r\nKurt: Sure thing. I am a bit of a Civil War collector. I grew up in a family of Civil War and history collectors and appreciators. I spent many childhood hours at antique shops and flea markets, and our home was full of interesting C...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "Unmasking the Past: The Quest for Civil War Identities",
+        "description": "A thorough exploration of the challenges and innovations in identifying historical figures through their photographs, focusing on the Photo Steward project.",
+        "segments": [
+          "The Importance of Accurate Historical Identification",
+          "Challenges in Civil War Photo Identification",
+          "The Role of Community and Technology in Validation"
+        ],
+        "key_questions": [
+          "Why is accurate identification of historical photos crucial?",
+          "What common pitfalls do researchers face in photo identification?",
+          "How does Photo Steward leverage community input to improve accuracy?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author of the research",
+          "Vikram Mohanty, Co-author of the research",
+          "Ron Coddington, Civil War historian and collector"
+        ],
+        "unique_elements": [
+          "In-depth case studies of misidentified photos",
+          "Audio clips from user interactions on the CWPS platform",
+          "Visual aids or links to relevant photos online for listeners"
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "Fact or Fiction: The Reality of Historical Photo Identification",
+        "description": "A Socratic dialogue exploring the assumptions and realities of identifying historical figures in photographs, featuring debates between experts.",
+        "segments": [
+          "Assumptions in Historical Research",
+          "The Reality of Photo Misidentification",
+          "Innovations in Historical Validation Techniques"
+        ],
+        "key_questions": [
+          "What are the common assumptions about historical photo identification?",
+          "How do these assumptions hold up against real-world challenges?",
+          "What innovations are helping to improve the accuracy of historical identification?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author of the research",
+          "Historians who specialize in Civil War photography",
+          "Computer scientists involved in AI and crowdsourcing"
+        ],
+        "unique_elements": [
+          "Live debates with experts presenting opposing views",
+          "Audience participation with live questions and polls",
+          "Real-time analysis of historical identification cases"
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "Behind the Lens: The Journey of Historical Photo Identification",
+        "description": "A biographical exploration of the scientists behind the Photo Steward project, detailing their motivations, challenges, and successes.",
+        "segments": [
+          "Early Interests and Inspirations",
+          "The Development of Photo Steward",
+          "Case Studies of Success and Learning"
+        ],
+        "key_questions": [
+          "What inspired the scientists to focus on historical photo identification?",
+          "What challenges did they face during the development of Photo Steward?",
+          "How have their personal experiences shaped their research?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, Co-author of the research",
+          "Vikram Mohanty, Co-author of the research",
+          "Participants from the CWPS platform sharing their stories"
+        ],
+        "unique_elements": [
+          "Personal anecdotes from the researchers",
+          "Interviews with community members validating photos",
+          "Reflections on the broader implications of their work"
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 24987
+  },
+  {
+    "id": "analysis_1754351847569_f78xvkgu1",
+    "timestamp": "2025-08-04T23:57:27.569Z",
+    "contentLength": 106440,
+    "contentPreview": "=== story.txt ===\nRon: Great. I want to start with a detail about you that I’ve always appreciated, which is that you started out as a collector and someone who was deeply interested in the Civil War. Talk a little about how you became interested and got started.\r\n\r\nKurt: Sure thing. I am a bit of a Civil War collector. I grew up in a family of Civil War and history collectors and appreciators. I spent many childhood hours at antique shops and flea markets, and our home was full of interesting C...",
+    "podcastFormats": [
+      {
+        "id": "investigative_deep_dive",
+        "title": "Unveiling the Faces of History: The Photo Steward Initiative",
+        "description": "A thorough exploration of the Photo Steward platform and its impact on identifying historical figures through Civil War photographs.",
+        "segments": [
+          "Introduction to Historical Photo Identification",
+          "Challenges in Identifying Civil War Portraits",
+          "The Role of Photo Steward in Community Validation",
+          "Case Studies of Successful Identifications",
+          "Future Implications for Historical Research"
+        ],
+        "key_questions": [
+          "What are the common pitfalls in identifying historical photographs?",
+          "How does Photo Steward enhance the photo identification process?",
+          "What stories can be uncovered through successful identifications?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, co-author of the study",
+          "Vikram Mohanty, co-author of the study",
+          "An expert on Civil War history"
+        ],
+        "unique_elements": [
+          "In-depth analysis of user case studies from Photo Steward",
+          "Guest interviews with users who have successfully identified ancestors",
+          "Audio snippets of user deliberations during the validation process"
+        ]
+      },
+      {
+        "id": "hypothesis_vs_reality",
+        "title": "The Truth Behind the Lens: Exploring History through Photo Steward",
+        "description": "A Socratic exploration of the assumptions and realities of historical photo identification, examining the Photo Steward methodology.",
+        "segments": [
+          "Understanding the Hypothesis of AI in Historical Research",
+          "Reality Check: Misidentifications and Their Consequences",
+          "The Community's Role in Validating Historical Accuracy",
+          "Comparing Automated and Human Verification",
+          "Revisiting Historical Narratives Through Accurate Identifications"
+        ],
+        "key_questions": [
+          "What assumptions do we make about historical photographs?",
+          "How can community involvement mitigate misidentifications?",
+          "In what ways does AI support or hinder historical accuracy?"
+        ],
+        "potential_guests": [
+          "Historians specializing in Civil War photography",
+          "AI ethics experts",
+          "Members of the Civil War Photo Sleuth community"
+        ],
+        "unique_elements": [
+          "Interactive listener polls on assumptions about historical accuracy",
+          "Dramatic readings of misidentified historical narratives",
+          "Live debate segments with experts presenting opposing views"
+        ]
+      },
+      {
+        "id": "scientists_story",
+        "title": "From Collector to Innovator: The Journey of Photo Steward",
+        "description": "A biographical podcast that chronicles the personal and professional journeys of Kurt Luther and Vikram Mohanty, highlighting their passion for history and technology.",
+        "segments": [
+          "Early Inspirations: The Roots of a Civil War Collector",
+          "The Intersection of Technology and History in Photo Identification",
+          "Challenges Faced in Developing Photo Steward",
+          "User Stories: Impacting Lives Through Family History",
+          "Looking Ahead: The Future of Historical Photo Identification"
+        ],
+        "key_questions": [
+          "What motivated Kurt and Vikram to create Photo Steward?",
+          "How have their personal stories influenced their research?",
+          "What future developments do they envision for the platform?"
+        ],
+        "potential_guests": [
+          "Kurt Luther, co-author and Civil War collector",
+          "Vikram Mohanty, co-author and computer scientist",
+          "A historian or archivist who uses the platform"
+        ],
+        "unique_elements": [
+          "Narrative storytelling interwoven with personal experiences",
+          "Soundscapes of antique shops and historical sites",
+          "Reflections on the emotional impact of uncovering family histories"
+        ]
+      }
+    ],
+    "totalFormats": 3,
+    "processingTimeMs": 12396
+  }
+]

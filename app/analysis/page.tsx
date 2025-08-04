@@ -3,80 +3,68 @@
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 
-// Mock data for podcast structures
-const podcastStructures = [
-  {
-    id: 'narrative',
-    title: 'Narrative Journey',
-    description: 'A storytelling approach that follows your personal research journey',
-    outline: [
-      'Personal Introduction & Background',
-      'The Research Problem Discovery',
-      'Methodology & Challenges',
-      'Key Findings & Breakthroughs',
-      'Impact & Future Directions'
-    ],
-    sampleQuestions: [
-      'What inspired you to pursue this specific research topic?',
-      'Can you walk us through your "aha!" moment during the research?',
-      'What was the biggest challenge you faced, and how did you overcome it?',
-      'How do you see your findings changing the field?',
-      'What advice would you give to young researchers?'
-    ]
-  },
-  {
-    id: 'interview',
-    title: 'Expert Interview',
-    description: 'A Q&A format positioning you as the expert guest being interviewed',
-    outline: [
-      'Host Introduction & Guest Background',
-      'Research Area Deep Dive',
-      'Technical Discussion & Methodology',
-      'Practical Applications & Implications',
-      'Lightning Round & Conclusion'
-    ],
-    sampleQuestions: [
-      'Can you explain your research in terms a general audience would understand?',
-      'What makes your approach different from previous studies?',
-      'What were the most surprising results from your research?',
-      'How might your findings be applied in real-world scenarios?',
-      'What are the next big questions in your field?'
-    ]
-  },
-  {
-    id: 'deepdive',
-    title: 'Research Deep Dive',
-    description: 'Technical exploration focusing on methodology, data, and scientific rigor',
-    outline: [
-      'Research Context & Literature Review',
-      'Detailed Methodology Explanation',
-      'Data Analysis & Statistical Findings',
-      'Discussion of Limitations & Validity',
-      'Scientific Impact & Peer Review Process'
-    ],
-    sampleQuestions: [
-      'How did you design your study to address the research question?',
-      'What statistical methods did you use and why?',
-      'How do you ensure the reproducibility of your results?',
-      'What are the key limitations of your study?',
-      'How does your work build upon existing research in the field?'
-    ]
-  }
-]
+interface PodcastFormat {
+  id: string;
+  title: string;
+  description: string;
+  segments: string[];
+  key_questions: string[];
+  potential_guests: string[];
+  unique_elements: string[];
+}
+
+interface PodcastAnalysisRecord {
+  id: string;
+  timestamp: string;
+  contentLength: number;
+  contentPreview: string;
+  podcastFormats: PodcastFormat[];
+  totalFormats: number;
+  processingTimeMs: number;
+}
 
 export default function AnalysisPage() {
   const router = useRouter()
   const [selectedStructure, setSelectedStructure] = useState<string | null>(null)
   const [isAnalyzing, setIsAnalyzing] = useState(true)
   const [editingQuestions, setEditingQuestions] = useState<{[key: string]: string[]}>({})
+  const [podcastFormats, setPodcastFormats] = useState<PodcastFormat[]>([])
+  const [analysisInfo, setAnalysisInfo] = useState<PodcastAnalysisRecord | null>(null)
+  const [error, setError] = useState<string>('')
 
-  // Simulate analysis loading
+  // Fetch real analysis data
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsAnalyzing(false)
-    }, 3000) // 3 seconds loading
-    return () => clearTimeout(timer)
+    fetchLatestAnalysis()
   }, [])
+
+  const fetchLatestAnalysis = async () => {
+    try {
+      setIsAnalyzing(true)
+      setError('')
+      
+      const response = await fetch('/api/get-podcast-analyses')
+      if (!response.ok) {
+        throw new Error('Failed to fetch podcast analyses')
+      }
+      
+      const analyses: PodcastAnalysisRecord[] = await response.json()
+      
+      if (analyses.length === 0) {
+        throw new Error('No podcast analyses found. Please go back and upload text files first.')
+      }
+      
+      // Get the most recent analysis
+      const latestAnalysis = analyses[analyses.length - 1]
+      setAnalysisInfo(latestAnalysis)
+      setPodcastFormats(latestAnalysis.podcastFormats)
+      
+    } catch (err) {
+      console.error('Error fetching analysis:', err)
+      setError(err instanceof Error ? err.message : 'Failed to load podcast analysis')
+    } finally {
+      setIsAnalyzing(false)
+    }
+  }
 
   const handleStructureSelect = (structureId: string) => {
     setSelectedStructure(structureId)
@@ -92,9 +80,9 @@ export default function AnalysisPage() {
     }))
   }
 
-  const getQuestions = (structure: any) => {
-    return structure.sampleQuestions.map((q: string, index: number) => 
-      editingQuestions[structure.id]?.[index] || q
+  const getQuestions = (format: PodcastFormat) => {
+    return format.key_questions.map((q: string, index: number) => 
+      editingQuestions[format.id]?.[index] || q
     )
   }
 
@@ -118,16 +106,14 @@ export default function AnalysisPage() {
             margin: '0 auto 24px'
           }} />
           <h1 style={{ fontSize: '32px', fontWeight: 'bold', color: '#1f2937', marginBottom: '16px' }}>
-            Analyzing Your Content
+            Loading Your Analysis
           </h1>
           <p style={{ fontSize: '18px', color: '#6b7280', marginBottom: '24px' }}>
-            Our AI is reading your story and research papers to create personalized podcast structures...
+            Fetching your AI-generated podcast formats from storage...
           </p>
           <div style={{ backgroundColor: 'white', padding: '20px', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
             <p style={{ fontSize: '14px', color: '#374151', margin: 0 }}>
-              ✅ Story analyzed<br/>
-              ✅ Research papers processed<br/>
-              🔄 Generating podcast structures...
+              🔄 Loading latest analysis results...
             </p>
           </div>
         </div>
@@ -141,6 +127,54 @@ export default function AnalysisPage() {
     )
   }
 
+  if (error) {
+    return (
+      <div style={{ minHeight: '100vh', backgroundColor: '#f8fafc', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ textAlign: 'center', maxWidth: '600px', padding: '40px' }}>
+          <div style={{ fontSize: '64px', marginBottom: '24px' }}>❌</div>
+          <h1 style={{ fontSize: '32px', fontWeight: 'bold', color: '#1f2937', marginBottom: '16px' }}>
+            Analysis Not Found
+          </h1>
+          <p style={{ fontSize: '18px', color: '#6b7280', marginBottom: '32px' }}>
+            {error}
+          </p>
+          <div style={{ display: 'flex', gap: '16px', justifyContent: 'center' }}>
+            <button
+              onClick={() => router.push('/')}
+              style={{
+                padding: '16px 32px',
+                fontSize: '16px',
+                fontWeight: '500',
+                borderRadius: '8px',
+                border: 'none',
+                backgroundColor: '#7c3aed',
+                color: 'white',
+                cursor: 'pointer'
+              }}
+            >
+              Start New Analysis
+            </button>
+            <button
+              onClick={fetchLatestAnalysis}
+              style={{
+                padding: '16px 32px',
+                fontSize: '16px',
+                fontWeight: '500',
+                borderRadius: '8px',
+                border: '1px solid #d1d5db',
+                backgroundColor: 'white',
+                color: '#374151',
+                cursor: 'pointer'
+              }}
+            >
+              Retry
+            </button>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#f8fafc', padding: '20px' }}>
       <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
@@ -149,44 +183,51 @@ export default function AnalysisPage() {
           <h1 style={{ fontSize: '42px', fontWeight: 'bold', color: '#1f2937', marginBottom: '16px' }}>
             Choose Your Podcast Style
           </h1>
-          <p style={{ fontSize: '18px', color: '#6b7280', maxWidth: '700px', margin: '0 auto' }}>
-            Based on your story and research, we've created three podcast structures tailored to your content. Select the one that resonates with you.
+          <p style={{ fontSize: '18px', color: '#6b7280', maxWidth: '700px', margin: '0 auto 24px auto' }}>
+            Based on your uploaded content, our AI has generated three unique podcast formats tailored specifically for you. Select the one that resonates with your vision.
           </p>
+          {analysisInfo && (
+            <div style={{ fontSize: '14px', color: '#6b7280', backgroundColor: '#f8fafc', padding: '12px', borderRadius: '8px', border: '1px solid #e5e7eb', maxWidth: '600px', margin: '0 auto' }}>
+              📊 Analysis from {new Date(analysisInfo.timestamp).toLocaleDateString()} • 
+              {analysisInfo.contentLength.toLocaleString()} characters processed • 
+              {analysisInfo.processingTimeMs}ms generation time
+            </div>
+          )}
         </div>
 
-        {/* Three Structure Blocks */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '24px', marginBottom: '48px' }}>
-          {podcastStructures.map((structure) => (
+        {/* AI-Generated Format Blocks */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(420px, 1fr))', gap: '24px', marginBottom: '48px' }}>
+          {podcastFormats.map((format) => (
             <div 
-              key={structure.id}
+              key={format.id}
               style={{ 
                 backgroundColor: 'white', 
-                border: selectedStructure === structure.id ? '2px solid #7c3aed' : '1px solid #e5e7eb',
+                border: selectedStructure === format.id ? '2px solid #7c3aed' : '1px solid #e5e7eb',
                 borderRadius: '12px', 
                 padding: '32px',
                 cursor: 'pointer',
                 transition: 'all 0.2s ease',
-                transform: selectedStructure === structure.id ? 'translateY(-4px)' : 'none',
-                boxShadow: selectedStructure === structure.id ? '0 10px 25px rgba(124, 58, 237, 0.1)' : '0 1px 3px rgba(0, 0, 0, 0.1)'
+                transform: selectedStructure === format.id ? 'translateY(-4px)' : 'none',
+                boxShadow: selectedStructure === format.id ? '0 10px 25px rgba(124, 58, 237, 0.1)' : '0 1px 3px rgba(0, 0, 0, 0.1)'
               }}
-              onClick={() => handleStructureSelect(structure.id)}
+              onClick={() => handleStructureSelect(format.id)}
             >
               {/* Header */}
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px' }}>
                 <h3 style={{ fontSize: '24px', fontWeight: '600', color: '#1f2937', margin: 0 }}>
-                  {structure.title}
+                  {format.title}
                 </h3>
                 <div style={{ 
                   width: '24px', 
                   height: '24px',
                   borderRadius: '50%',
-                  border: selectedStructure === structure.id ? '2px solid #7c3aed' : '2px solid #d1d5db',
-                  backgroundColor: selectedStructure === structure.id ? '#7c3aed' : 'white',
+                  border: selectedStructure === format.id ? '2px solid #7c3aed' : '2px solid #d1d5db',
+                  backgroundColor: selectedStructure === format.id ? '#7c3aed' : 'white',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center'
                 }}>
-                  {selectedStructure === structure.id && (
+                  {selectedStructure === format.id && (
                     <div style={{ width: '8px', height: '8px', backgroundColor: 'white', borderRadius: '50%' }} />
                   )}
                 </div>
@@ -194,28 +235,54 @@ export default function AnalysisPage() {
 
               {/* Description */}
               <p style={{ fontSize: '16px', color: '#6b7280', marginBottom: '24px', lineHeight: '1.5' }}>
-                {structure.description}
+                {format.description}
               </p>
 
-              {/* Outline */}
-              <div style={{ marginBottom: '24px' }}>
+              {/* Segments */}
+              <div style={{ marginBottom: '20px' }}>
                 <h4 style={{ fontSize: '16px', fontWeight: '600', color: '#374151', marginBottom: '12px' }}>
-                  Podcast Structure:
+                  📋 Podcast Segments:
                 </h4>
                 <ol style={{ margin: 0, paddingLeft: '20px', color: '#6b7280', fontSize: '14px' }}>
-                  {structure.outline.map((item, index) => (
-                    <li key={index} style={{ marginBottom: '4px' }}>{item}</li>
+                  {format.segments.map((segment, index) => (
+                    <li key={index} style={{ marginBottom: '4px' }}>{segment}</li>
                   ))}
                 </ol>
               </div>
 
-              {/* Sample Questions */}
+              {/* Potential Guests */}
+              {format.potential_guests && format.potential_guests.length > 0 && (
+                <div style={{ marginBottom: '20px' }}>
+                  <h4 style={{ fontSize: '16px', fontWeight: '600', color: '#374151', marginBottom: '12px' }}>
+                    🎤 Potential Guests:
+                  </h4>
+                  <div style={{ fontSize: '14px', color: '#6b7280' }}>
+                    {format.potential_guests.join(' • ')}
+                  </div>
+                </div>
+              )}
+
+              {/* Unique Elements */}
+              {format.unique_elements && format.unique_elements.length > 0 && (
+                <div style={{ marginBottom: '20px' }}>
+                  <h4 style={{ fontSize: '16px', fontWeight: '600', color: '#374151', marginBottom: '12px' }}>
+                    ✨ Unique Elements:
+                  </h4>
+                  <ul style={{ margin: 0, paddingLeft: '20px', color: '#6b7280', fontSize: '14px' }}>
+                    {format.unique_elements.map((element, index) => (
+                      <li key={index} style={{ marginBottom: '4px' }}>{element}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Key Questions */}
               <div>
                 <h4 style={{ fontSize: '16px', fontWeight: '600', color: '#374151', marginBottom: '12px' }}>
-                  Sample Interview Questions:
+                  ❓ Key Interview Questions:
                 </h4>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                  {getQuestions(structure).map((question, index) => (
+                  {getQuestions(format).map((question, index) => (
                     <div key={index} style={{ 
                       padding: '8px 12px', 
                       backgroundColor: '#f8fafc', 
@@ -225,7 +292,7 @@ export default function AnalysisPage() {
                       <input
                         type="text"
                         value={question}
-                        onChange={(e) => handleQuestionEdit(structure.id, index, e.target.value)}
+                        onChange={(e) => handleQuestionEdit(format.id, index, e.target.value)}
                         onClick={(e) => e.stopPropagation()}
                         style={{
                           width: '100%',
@@ -260,7 +327,7 @@ export default function AnalysisPage() {
               transition: 'all 0.2s ease'
             }}
           >
-            Back to Upload
+            Back to Template
           </button>
           <button
             onClick={handleGeneratePodcast}
